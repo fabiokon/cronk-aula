@@ -101,7 +101,7 @@ jobs:
             base64 --decode | \
             sha256sum --check --status
 
-      - name: Publish to PyPi(Test)
-        uses: pypa/gh-action-pypi-publish@f8c70e705ffc13c3b4d1221169b84f12a75d6ca8 # v1.8.8
-        with:
-          repository-url: https://test.pypi.org/legacy/
+#      - name: Publish to PyPi(Test)
+#        uses: pypa/gh-action-pypi-publish@f8c70e705ffc13c3b4d1221169b84f12a75d6ca8 # v1.8.8
+#        with:
+#          repository-url: https://test.pypi.org/legacy/
